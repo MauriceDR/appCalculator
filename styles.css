@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+}
+
+.links {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    color: white;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+
+.screen {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttons {
+    display: flex;
+}
+
+.btnGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4, 
+.btnPlus,
+.btnEqual {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(109, 230, 145);
+    font-size: 20px;
+}
+
+.btnEqual {
+    background-color: rgb(89, 122, 158);
+}
+
+.btnPlus {
+    background-color: rgb(89, 122, 158);
+}
+
+.deleteBtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.clearBtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(202, 74, 74);
+    font-size: 20px;
+}
+
+.deleteBtn:hover,
+.clearBtn:hover,
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover, 
+.btnPlus:hover,
+.btnEqual:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+#videoBtn {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#videoBtn:hover {
+    background-color: rgb(92, 172, 92);
+}
